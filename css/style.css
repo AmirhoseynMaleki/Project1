@@ -1,3 +1,8 @@
+.background-gradient {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(171deg, rgba(255, 255, 255, 1) 0%, rgba(107, 6, 135, 1) 100%);
+}
+
 .logo {
     text-decoration: none;
     color: #6b0687;
@@ -9,8 +14,8 @@
 }
 
 .logo img {
-    height: 55px;
-    margin: 0 10px;
+    height: 60px;
+    margin: 0 5px;
 }
 
 /*Text weights for use later*/
@@ -42,22 +47,37 @@ nav a {
     margin-left: 70px;
 }
 
-header {
+header>div:first-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: lightcoral;
-    margin: 0 80px;
-    padding: 10px;
-    border-radius: 20px;
+    margin: 0 95px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
 }
 
 .SignUpbutton {
     padding: 10px 30px;
     margin-right: 35px;
-    color: lightcoral;
+    color: #f08080;
     background-color: #6b0687;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 15px;
-    border-color: #6b0687;
+}
+
+.headerbottom {
+    height: 500px;
+    margin: 25px 95px;
+    border-radius: 15px;
+}
+
+.headerbottom>h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #67232c;
+
+
 }
